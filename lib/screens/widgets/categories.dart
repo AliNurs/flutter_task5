@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task5/theme/styles_txt.dart';
+
+import '../../theme/styles_txt.dart';
 
 class Categories extends StatelessWidget {
   const Categories(

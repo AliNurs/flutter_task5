@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import '../../theme/app_images.dart';
 import '../widgets/body_image.dart';
-
 import 'MainScreenWidgets.dart';
 
 class HomePage extends StatelessWidget {

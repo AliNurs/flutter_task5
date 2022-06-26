@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task5/theme/app_images.dart';
-import 'package:flutter_task5/screens/widgets/categories.dart';
 
 import 'screens/home_screen/home_page.dart';
 

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../theme/app_images.dart';
-
 class BodyImage extends StatelessWidget {
   const BodyImage({Key? key, required this.height, required this.image})
       : super(key: key);
@@ -12,7 +10,7 @@ class BodyImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: height,
+      height: MediaQuery.of(context).size.height * height,
       width: MediaQuery.of(context).size.width,
       child: Image.asset(
         image,

@@ -14,11 +14,11 @@ class HomePage extends StatelessWidget {
       body: Stack(
         children: const [
           BodyImage(
-            height: 0.66,
+            height: 0.6,
             image: AppImages.bg1,
           ),
           BodyImage(
-            height: 0.33,
+            height: 0.3,
             image: AppImages.bg2,
           ),
           MainScreenWidgets(),
